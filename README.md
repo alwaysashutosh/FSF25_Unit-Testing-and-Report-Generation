@@ -17,8 +17,11 @@ This project automates the structural design of bolted lap joints using Python, 
 
 - `main.tex` – LaTeX report for Overleaf (with flowcharts, formulas, and code)
   https://www.overleaf.com/read/pmfxvkwsqnth#ea1e3b
-- `bolted_lap_joint_design.py` – Python script implementing the design logic
-- `bolted_lap_joint_overleaf_project.zip` – Ready-to-upload Overleaf zip project
+- `bolted_lap_joint_design.py` – main design script
+- `IS800_2007.py` – standard values and functions from IS 800
+- `Common.py` – utility functions/constants
+- `test_bolted_lap_joint.py` – test and demo cases
+- `README.md` – documentation
 - `output.png` – Screenshot of sample Python output
 - `file_structure.png` – File structure
 
@@ -26,11 +29,11 @@ This project automates the structural design of bolted lap joints using Python, 
 
 ## 🧮 File Structure
 
-![Flowchart](file_structure.png)
+![File Structure](file_structure.png)
 
 ## 🧮 Output
 
-![Flowchart](output.png)
+![Output](output.png)
 
 ## 📐 Bolted Lap Joint Diagram
 
